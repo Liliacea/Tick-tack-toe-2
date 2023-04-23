@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ticktacktoe2.HelloController">
+   <children>
+      <Button fx:id="third" layoutX="175.0" layoutY="242.0" mnemonicParsing="false" onAction="#thirdButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="first" layoutX="38.0" layoutY="242.0" mnemonicParsing="false" onAction="#firstButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="fifth" layoutX="107.0" layoutY="167.0" mnemonicParsing="false" onAction="#fifthButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="second" layoutX="107.0" layoutY="242.0" mnemonicParsing="false" onAction="#secondButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="ninth" layoutX="175.0" layoutY="95.0" mnemonicParsing="false" onAction="#ninthButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="fourth" layoutX="38.0" layoutY="167.0" mnemonicParsing="false" onAction="#fourthButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="eighth" layoutX="107.0" layoutY="95.0" mnemonicParsing="false" onAction="#eighthButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="seventh" layoutX="38.0" layoutY="95.0" mnemonicParsing="false" onAction="#seventhButtonClick" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="Start" layoutX="36.0" layoutY="305.0" mnemonicParsing="false" onAction="#OnStartButtonClick" prefHeight="50.0" prefWidth="187.0" text="Start" />
+      <Button fx:id="sixth" layoutX="175.0" layoutY="167.0" mnemonicParsing="false" onAction="#sixthButtonClick" prefHeight="50.0" prefWidth="50.0" />
+   </children>
+</AnchorPane>
